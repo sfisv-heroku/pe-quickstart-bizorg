@@ -1,0 +1,8 @@
+[
+    {
+        "sobject": "Customer_Org_Info__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": ["Customer_Org_Info__cs.json"]
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "records": [
+        {
+             "attributes": {
+                 "type": "Customer_Org_Info__c",
+                 "referenceId": "Customer_Org_Info__cRef1"
+             },
+             "Org_Id__c": "<Org Id",
+             "Username__c": "Org Username",
+             "EventCount__c": "0",
+             "IsActive__c": "true",
+             "ConnectionInfo__c": "{'instance_url': '<Login URL>', 'username': '<Org Username>', 'orgId': '<Org Id>', 'clientId': '<Org ClientId', 'environment': '<production or sandbox>', 'redirectUri': 'https://login.salesforce.com/services/oauth2/callback'}"
+        }
+    ]
+}
