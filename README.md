@@ -21,8 +21,8 @@ For more information, please go to the Salesforce Partner Community and view the
 ## Table of Contents
 
 *   Installation
-    *   [Installing Heroku Platform Events Quick Start Business Org using Salesforce DX](#installing-heroku-pe-quickstart-custorg-using-salesforce-dx)
-    *   [Installing Heroku Platform Events Quick Start Business Org using an unlocked package](#installing-pe-quickstart-custorg-using-an-unlocked-package)
+    *   [Installing Heroku Platform Events Quick Start Business Org using Salesforce DX](#installing-heroku-pe-quickstart-bizorg-using-salesforce-dx)
+    *   [Installing Heroku Platform Events Quick Start Business Org using an unlocked package](#installing-pe-quickstart-bizorg-using-an-unlocked-package)
 
 ## Installation
 
