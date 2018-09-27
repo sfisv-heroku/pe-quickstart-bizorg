@@ -3,12 +3,12 @@
 
 This example is to demonstrate and serve as a quick start for how large-scale processing can be moved from Salesforce to Heroku.  It consists of four components, each with its own git repository:
 
-1. [Business org](https://github.com/sfisv-heroku/pe-quickstart-bizorg) (this project): A Salesforce application that keeps track of the activity happening in the Customer org and on Heroku
+1. [Business org](https://github.com/sfisv-heroku/pe-quickstart-bizorg) **(this project)**: A Salesforce application that keeps track of the activity happening in the Customer org and on Heroku
 1. [Customer org](https://github.com/sfisv-heroku/pe-quickstart-custorg): A Salesforce application that generates Platform Events
 1. [Listener](https://github.com/sfisv-heroku/pe-quickstart-listener): A Heroku application that consumes events and dispatches them to the worker
 1. [Worker](https://github.com/sfisv-heroku/pe-quickstart-worker): A Heroku application that receives work from the listener and performs processing on data retrieved from the Customer org
 
-They must be configured in the listed order, due to dependencies (Customer Org and Listener dependent on Business Org and Worker dependent on Listener)
+They must be configured in the listed order, due to dependencies (Customer Org and Listener dependent on Business Org and Worker dependent on Listener).
 
 This is an experimental project, which means that:
 
