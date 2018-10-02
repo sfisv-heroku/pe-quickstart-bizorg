@@ -60,6 +60,37 @@ This is the recommended installation option for developers who want to experienc
 
     2. Change the "Permitted Users" setting to "Admin approved users are pre-authorized" and click Save.
 
+1.  Collect the Client ID and Client Secret for your Connected App:
+
+    1. Go the the App Manager page (from Setup, enter App Manager in the Quick Find box).
+
+    2. Click on the arrow to the right of the **CustomerOrgInformation** row, to reveal the drop-down list and select **View**
+
+    3. Take down the **Consumer Key** for later use (will be called **BIZ_CLIENT_ID**).
+
+    4. Click on **Click to Reveal** next to the **Consumer Secret** and take down the revealed value for later use (will be called **BIZ_CLIENT_SECRET**).
+
+1.  Reset the security token for the current user:
+
+    1. From your personal settings, enter Reset in the Quick Find box, then select **Reset My Security Token**.
+    
+    2. Click **Reset Security Token**. The new security token is sent to the email address in your Salesforce personal settings (the one associated with your SFDX hub org)
+
+    3. From the email that is sent, note the security token, as it will be required when configuring the related components (will be called **BIZ_TOKEN**).
+
+1.  Collect remaining access information, that will be required for configuring the other components to access the business org:
+
+    1. To get the username and password, execute:
+    ```
+    sfdx force:user:display
+    ```
+    2. Take down the following and hold onto them for later use:
+
+    Org Id (will be called **BIZ_ORG_ID**)
+    Instance Url (will be called **BIZ_URL**)
+    Username (will be called **BIZ_USERNAME**)
+    Password (will be called **BIZ_PASSWORD**)
+
 
 ### Installing Heroku Platform Events Quick Start Business Org using an unlocked package
 
