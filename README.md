@@ -20,9 +20,9 @@ For more information, please go to the Salesforce Partner Community and view the
 
 ## Table of Contents
 
-*   Installation
-    *   [Installing Heroku Platform Events Quick Start Business Org using Salesforce DX](#installing-heroku-pe-quickstart-bizorg-using-salesforce-dx)
-    *   [Installing Heroku Platform Events Quick Start Business Org using an unlocked package](#installing-pe-quickstart-bizorg-using-an-unlocked-package)
+*   Installation(#installation)
+    *   [Installing Heroku Platform Events Quick Start Business Org using Salesforce DX](#installing-heroku-platform-events-quick-start-business-org-using-salesforce-dx)
+    *   [Installing Heroku Platform Events Quick Start Business Org using an unlocked package](#installing-heroku-platform-events-quick-start-business-org-using-an-unlocked-package)
 
 ## Installation
 
@@ -86,10 +86,12 @@ This is the recommended installation option for developers who want to experienc
     ```
     2. Take down the following and hold onto them for later use:
 
-    Org Id (will be called **BIZ_ORG_ID**)
-    Instance Url (will be called **BIZ_URL**)
-    Username (will be called **BIZ_USERNAME**)
-    Password (will be called **BIZ_PASSWORD**)
+    Key in Display | Config Var Name (Future)
+    -------------- | -------------
+    Org Id         | BIZ_ORG_ID
+    Instance Url   | BIZ_URL
+    Username       | BIZ_USERNAME
+    Password       | BIZ_PASSWORD
 
 
 ### Installing Heroku Platform Events Quick Start Business Org using an unlocked package
