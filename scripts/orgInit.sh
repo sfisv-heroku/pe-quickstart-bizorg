@@ -11,7 +11,6 @@ sfdx force:org:create -a pe-quickstart-bizorg -s -f config/project-scratch-def.j
 sfdx force:source:push
 sfdx force:user:permset:assign -n PE_Example_Access
 sfdx force:apex:execute -f scripts/setupaccess.apex
-sfdx force:data:tree:import --plan ./data/Customer_Org_Info__c-plan.json
 sfdx force:user:password:generate
 sfdx force:org:open -p /lightning/setup/ConnectedApplication/home
 echo "Org is set up"

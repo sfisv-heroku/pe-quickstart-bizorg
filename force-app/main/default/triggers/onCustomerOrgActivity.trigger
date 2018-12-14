@@ -28,6 +28,7 @@ trigger onCustomerOrgActivity on CustomerOrgActivity__e (after insert) {
         // Get the event for this org
         CustomerOrgActivity__e activity = customerActivityByOrg.get(customerOrg.Org_Id__c);
 
+        // Currently, only handling 'Subscription' type, but could be extended to handle EventCountIncreased and replace more specific Event/trigger
         if (activity.Type__c == 'Subscription') {       
             // Set the fields on the Customer_Org_Info__c record
             //Long longtime = Long.valueOf(activity.timestamp);

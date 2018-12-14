@@ -13,15 +13,16 @@ trigger CustomerOrgInfoTrigger on Customer_Org_Info__c (before insert, before up
             orgInfo.ConnectionInfo__c = orgInfo.ConnectionInfo__c.replace('\'', '\"'); 
         }
     }
-  
 
     if (trigger.isAfter) {
+        // NOTE: This is demonstrative.  In real case, pull logic out to handler class.
 
         List<UpdatedCustomerOrgInfo__e> eventList = new List<UpdatedCustomerOrgInfo__e>();
 
         // Iterate through the updated CustomerOrgInfo's and create an Event for each one   
         for (Customer_Org_Info__c orgInfo : Trigger.new) {
             
+            // Only publish if isActive or ConnectionInfo have changed from previous value
             if (trigger.isInsert || ( trigger.isUpdate && 
                     ( (orgInfo.IsActive__c != Trigger.oldMap.get(orgInfo.Id).IsActive__c) || 
                     (orgInfo.ConnectionInfo__c != Trigger.oldMap.get(orgInfo.Id).ConnectionInfo__c) ) ) ) {

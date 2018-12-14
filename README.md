@@ -100,8 +100,8 @@ This is the recommended option for non developers. Use this option if you want t
 
 1.  [Sign up](https://developer.salesforce.com/signup) for a developer edition.
 
-1.  Enable My Domain. Follow the instructions to enable My Domain [here](https://trailhead.salesforce.com/projects/quickstart-lightning-components/steps/quickstart-lightning-components1).
+1.  Enable My Domain. Follow the instructions to enable My Domain [here](https://trailhead.salesforce.com/en/modules/identity_login/units/identity_login_my_domain).
 
-1.  Click [this link](https://login.salesforce.com/packaging/installPackage.apexp?p0=xxx) to install the Platform Events Example ISV Business Org App unlocked package into your developer edition org.
+1.  Click [this link](https://login.salesforce.com/packaging/installPackage.apexp?p0=xxx) to install the Heroku Platform Events Quick Start Business Org App unlocked package into your developer edition org.
 
 1.  Select **Install for All Users**. When prompted, make sure you grant access to the external sites.

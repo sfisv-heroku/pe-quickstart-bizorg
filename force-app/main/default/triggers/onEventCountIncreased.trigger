@@ -6,6 +6,7 @@
  */
  
  trigger onEventCountIncreased on EventCountIncreased__e (after insert) {
+    // NOTE: This is demonstrative.  In real case, pull logic out to handler class.
 
     Map<String, Integer> eventIncreaseByOrg = new Map<String, Integer>();
     Integer eventIncrease;
